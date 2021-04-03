@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+
+
+  
+.cart-user{
+    margin-right: 10px;
+}
+.text_silver{
+    color: silver;
+}
+.cart-user a{
+    color: #000;
+    text-decoration: none;
+}
+
+.cart-user a:hover{
+    color: rgb(16, 96, 201);
+   
+}
+
+
+
+.blok_two{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid silver;
+   
+}
+.like_hover:hover{
+    color: red;
+}
+.cart_new a{
+    text-decoration: none;
+}
+
+.containers{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.cart-users{
+    max-height: 300px;
+    overflow-y: scroll;
+
+}
+/* scroll------- */
+.cart-users::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+  }
+
+.cart-users::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: #4860ED;
+  }
+  /* scroll------- */
+.search_users{
+    border: 1px solid silver;
+    border-radius: 5px;
+
+}
+
+/*My account start---------------------------------------------------------- */
+.blok_one ul{
+list-style: none;
+}
+.blok_one a{
+    color: black;
+    text-decoration: none;
+    }
+.blok_one a:hover{
+        color: rgb(11, 118, 241);
+        
+        }
+
+
+/*My account end---------------------------------------------------------- */
+
+
+
+/*My books start---------------------------------------------------------- */
+.cart_book{
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 5px    ;
+    
+}
+.cart_book_text{
+    
+    padding-top: 10px;
+}
+/*My boors end---------------------------------------------------------- */
+
+
+
+/* footer start---------------------------------------------------------------- */
+.footer{
+    background-color: #253138;
+    color: #D0D0D0;
+}
+
+
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+.content {
+	padding-bottom: 30px;
+}
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+}
+
+/* footer end---------------------------------------------------------------- */
+
+/* autorisation start---------------------------------------------------------------- */
+.bg_autori{
+   background-color: #4960ee;
+ 
+}
+.width_75{
+    width: 75%;
+}
+@media (max-width: 768px) {
+    .width_75 {
+        width: 100%;
+    }
+ }
+/* autorisation end---------------------------------------------------------------- */
+
+
+/* load file start---------------------------------------------------------------- */
+.upload-file__input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    width: 0.4px;
+    height: 0.4px;
+}
+
+.upload-file__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height:200px ;
+    border: 2px solid #0c52d4;
+    padding: 9px 49px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.upload-file__label .upload-file__text,
+.upload-file__label .upload-file__icon path {
+    transition: .25s ease;
+}
+
+.upload-file__label:hover .upload-file__text {
+    color: #0c52d4;
+}
+
+.upload-file__label:hover .upload-file__icon path {
+    fill: #0c52d4;
+}
+
+.upload-file__label:hover {
+    border: 2px dashed #0c52d4;
+}
+/* load file end---------------------------------------------------------------- */
+.nav_link{
+    color: white;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.nav_link:hover{
+    color: yellow;
+}
